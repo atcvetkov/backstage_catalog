@@ -25,7 +25,6 @@ spec:
     - ./catalog-entries/chat-mf-frontend-renovate-npm-9-x.yaml
     - ./catalog-entries/chat-mf-frontend-renovate-nrwl-monore.yaml
     - ./catalog-entries/chat-mf-frontend-renovate-sass-1-x.yaml
-    - ./catalog-entries/dotcom-techradar.yaml
     - ./catalog-entries/ec-adi-chat-adi-chat-adi-chat.yaml
     - ./catalog-entries/ec-dotcom-techradar-dotcom-techradar-core.yaml
     - ./catalog-entries/ec-esm-svc-esm-svc.yaml
@@ -93,7 +92,6 @@ spec:
     - ./catalog-entries/glass-size-charts-mf-size-charts-microfrontend.yaml
     - ./catalog-entries/glass-size-charts-mf-size-charts-storybook.yaml
     - ./catalog-entries/glass-translations-docs-translations-docs.yaml
-    - ./catalog-entries/ingress-allowlist-operator.yaml
     - ./catalog-entries/recommendations-service-bai-11431.yaml
     - ./catalog-entries/size-charts-api-bai-12374-add-garmen.yaml
     - ./catalog-entries/size-charts-api-bai-12832.yaml

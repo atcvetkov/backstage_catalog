@@ -13,7 +13,8 @@ SUMMARY_FILE="../all-components.yaml"
 targets=()
 
 # Iterate through each deployment in the namespace
-for deployment in $(kubectl get deployments -n $NAMESPACE -o=jsonpath='{.items[*].metadata.name}'); do
+# for deployment in $(kubectl get deployments -n $NAMESPACE -o=jsonpath='{.items[*].metadata.name}'); do
+for deployment in $(kubectl get deployments -n $NAMESPACE -o=jsonpath='{range .items[?(@.metadata.labels.framework=="sole")]}{.metadata.name}{"\n"}{end}'); do
     label_app_kubernetes=$(kubectl get deployment $deployment -n $NAMESPACE -o=jsonpath='{.metadata.labels.app\.kubernetes\.io\/name}')
 
     # Create YAML content
