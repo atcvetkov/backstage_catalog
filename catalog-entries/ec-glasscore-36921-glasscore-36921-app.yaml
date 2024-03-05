@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-glasscore-36921-glasscore-36921-app
+  namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-glasscore-36921,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-glasscore-36921-glasscore-36921-app,framework=sole

@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: size-charts-api-renovate-node-20-x
+  namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-node-20-x,framework=sole

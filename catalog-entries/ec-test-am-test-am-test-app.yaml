@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-test-am-test-am-test-app
+  namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-test-am,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-test-am-test-am-test-app,framework=sole

@@ -24,6 +24,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: $deployment
+  namespace: $NAMESPACE
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=$label_app_kubernetes,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=$deployment,framework=sole

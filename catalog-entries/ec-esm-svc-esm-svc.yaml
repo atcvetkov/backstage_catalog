@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-esm-svc-esm-svc
+  namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-esm-svc,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-esm-svc-esm-svc,framework=sole

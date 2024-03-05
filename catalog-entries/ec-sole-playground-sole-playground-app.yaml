@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-sole-playground-sole-playground-app
+  namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-playground,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-playground-sole-playground-app,framework=sole

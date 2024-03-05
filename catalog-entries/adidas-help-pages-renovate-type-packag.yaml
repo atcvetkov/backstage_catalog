@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: adidas-help-pages-renovate-type-packag
+  namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=adidas-help-pages-renovate-type-packag,framework=sole
