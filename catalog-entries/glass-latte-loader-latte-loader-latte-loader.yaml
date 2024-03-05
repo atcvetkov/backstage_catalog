@@ -1,0 +1,11 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-latte-loader
+  annotations:
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-latte-loader,framework=sole
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core

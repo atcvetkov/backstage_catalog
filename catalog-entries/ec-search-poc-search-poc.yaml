@@ -1,0 +1,11 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-search-poc
+  annotations:
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-search-poc,framework=sole
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core

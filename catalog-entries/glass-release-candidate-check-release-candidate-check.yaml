@@ -1,0 +1,11 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-release-candidate-check
+  annotations:
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-release-candidate-check,framework=sole
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
