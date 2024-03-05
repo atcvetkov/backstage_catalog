@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-header-mf
+  name: glass-header-mf-header-mf
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-header-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-header-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-header-mf-header-mf,framework=sole
+  tags:
+    - sole
+    - glass-header-mf
 spec:
   type: service
   lifecycle: experimental

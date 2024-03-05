@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-pdp-mf
+  name: glass-pdp-mf-pdp-mf-pdp-product-story-mf
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-pdp-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-pdp-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-pdp-mf-pdp-mf-pdp-product-story-mf,framework=sole
+  tags:
+    - sole
+    - glass-pdp-mf
 spec:
   type: service
   lifecycle: experimental

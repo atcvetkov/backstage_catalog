@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-mbr-sidepanel-mf
+  name: glass-mbr-sidepanel-mf-points-history-mf
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-mbr-sidepanel-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-mbr-sidepanel-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-mbr-sidepanel-mf-points-history-mf,framework=sole
+  tags:
+    - sole
+    - glass-mbr-sidepanel-mf
 spec:
   type: service
   lifecycle: experimental

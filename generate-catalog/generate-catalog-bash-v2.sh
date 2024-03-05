@@ -22,13 +22,9 @@ for deployment in $(kubectl get deployments -n $NAMESPACE -o=jsonpath='{.items[*
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: $deployment
+  name: $label_app_kubernetes
   annotations:
-    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=$label_app_kubernetes,framework=sole
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=$deployment,framework=sole
-  tags:
-    - sole
-    - $label_app_kubernetes
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=$label_app_kubernetes,framework=sole
 spec:
   type: service
   lifecycle: experimental
@@ -56,3 +52,15 @@ for target in "${targets[@]}"; do
 done
 
 echo "Summary file '$SUMMARY_FILE' created successfully."
+
+
+# echo "apiVersion: backstage.io/v1alpha1"
+# echo "kind: Component"
+# echo "metadata:"
+# echo "  name: $label_app_kubernetes"
+# echo "  annotations:"
+# echo "    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=$label_app_kubernetes,framework=sole"
+# echo "spec:"
+# echo "  type: service"
+# echo "  lifecycle: experimental"
+# echo "  owner: exp-core"

@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-release-candidate-check
+  name: glass-release-candidate-check-release-candidate-check
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-release-candidate-check,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-release-candidate-check,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-release-candidate-check-release-candidate-check,framework=sole
+  tags:
+    - sole
+    - glass-release-candidate-check
 spec:
   type: service
   lifecycle: experimental

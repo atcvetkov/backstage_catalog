@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-navigation
+  name: glass-navigation-navigation-api
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-navigation,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-navigation,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-navigation-navigation-api,framework=sole
+  tags:
+    - sole
+    - glass-navigation
 spec:
   type: service
   lifecycle: experimental

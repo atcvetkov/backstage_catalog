@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-help-pages
+  name: adidas-help-pages-psrehp-37423
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=adidas-help-pages-psrehp-37423,framework=sole
+  tags:
+    - sole
+    - glass-help-pages
 spec:
   type: service
   lifecycle: experimental

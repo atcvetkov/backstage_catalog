@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ec-ivan-test
+  name: ec-ivan-test-mf-test-1-mf
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-ivan-test,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-ivan-test,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-ivan-test-mf-test-1-mf,framework=sole
+  tags:
+    - sole
+    - ec-ivan-test
 spec:
   type: service
   lifecycle: experimental

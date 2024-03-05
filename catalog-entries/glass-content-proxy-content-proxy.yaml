@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-content-proxy
+  name: glass-content-proxy-content-proxy
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-content-proxy,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-content-proxy,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-content-proxy-content-proxy,framework=sole
+  tags:
+    - sole
+    - glass-content-proxy
 spec:
   type: service
   lifecycle: experimental

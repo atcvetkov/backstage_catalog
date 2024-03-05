@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-size-charts-mf
+  name: size-charts-microfrontend-renovate-eslint-8-x
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-eslint-8-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
 spec:
   type: service
   lifecycle: experimental

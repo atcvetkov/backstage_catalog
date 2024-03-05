@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-recommendations-mf
+  name: glass-recommendations-mf-lookbook-microfrontend
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-recommendations-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-recommendations-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-recommendations-mf-lookbook-microfrontend,framework=sole
+  tags:
+    - sole
+    - glass-recommendations-mf
 spec:
   type: service
   lifecycle: experimental

@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ec-sole-test-at-3
+  name: ec-sole-test-at-3-sole-test-at-3-api-3
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test-at-3,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test-at-3,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-at-3-sole-test-at-3-api-3,framework=sole
+  tags:
+    - sole
+    - ec-sole-test-at-3
 spec:
   type: service
   lifecycle: experimental

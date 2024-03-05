@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-latte-landing-page
+  name: glass-latte-landing-page-latte-landing-page-mfe
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-latte-landing-page,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-latte-landing-page,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-latte-landing-page-latte-landing-page-mfe,framework=sole
+  tags:
+    - sole
+    - glass-latte-landing-page
 spec:
   type: service
   lifecycle: experimental

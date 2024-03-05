@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-comparison-tool-mf
+  name: glass-comparison-tool-mf-comparison-tool
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-comparison-tool-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-comparison-tool-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-comparison-tool-mf-comparison-tool,framework=sole
+  tags:
+    - sole
+    - glass-comparison-tool-mf
 spec:
   type: service
   lifecycle: experimental

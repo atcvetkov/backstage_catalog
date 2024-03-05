@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-footer-mf
+  name: glass-footer-mf-footer-mf
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-footer-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-footer-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-footer-mf-footer-mf,framework=sole
+  tags:
+    - sole
+    - glass-footer-mf
 spec:
   type: service
   lifecycle: experimental

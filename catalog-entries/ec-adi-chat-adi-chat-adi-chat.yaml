@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ec-adi-chat
+  name: ec-adi-chat-adi-chat-adi-chat
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-adi-chat,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-adi-chat,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-adi-chat-adi-chat-adi-chat,framework=sole
+  tags:
+    - sole
+    - ec-adi-chat
 spec:
   type: service
   lifecycle: experimental

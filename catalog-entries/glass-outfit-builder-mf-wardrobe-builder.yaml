@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-outfit-builder-mf
+  name: glass-outfit-builder-mf-wardrobe-builder
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-outfit-builder-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-outfit-builder-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-outfit-builder-mf-wardrobe-builder,framework=sole
+  tags:
+    - sole
+    - glass-outfit-builder-mf
 spec:
   type: service
   lifecycle: experimental

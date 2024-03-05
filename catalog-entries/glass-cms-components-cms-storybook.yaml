@@ -2,9 +2,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: glass-cms-components
+  name: glass-cms-components-cms-storybook
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-cms-components,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-cms-components,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-cms-components-cms-storybook,framework=sole
+  tags:
+    - sole
+    - glass-cms-components
 spec:
   type: service
   lifecycle: experimental
