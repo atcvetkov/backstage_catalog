@@ -1,0 +1,1952 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adidas-help-pages-psrehp-37423
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=adidas-help-pages-psrehp-37423,framework=sole
+  tags:
+    - sole
+    - glass-help-pages
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adidas-help-pages-psrehp-37551
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=adidas-help-pages-psrehp-37551,framework=sole
+  tags:
+    - sole
+    - glass-help-pages
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adidas-help-pages-renovate-ce-organic
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=adidas-help-pages-renovate-ce-organic,framework=sole
+  tags:
+    - sole
+    - glass-help-pages
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adidas-help-pages-renovate-type-packag
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=adidas-help-pages-renovate-type-packag,framework=sole
+  tags:
+    - sole
+    - glass-help-pages
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-app-psrehp-37425-encrypt
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-app-psrehp-37425-encrypt,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-app-renovate-account-acc
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-app-renovate-account-acc,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-app-renovate-crystal-cor
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-app-renovate-crystal-cor,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-app-renovate-dotenv-16-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-app-renovate-dotenv-16-x,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-app-renovate-firebase-9
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-app-renovate-firebase-9,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-app-renovate-npm-9-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-app-renovate-npm-9-x,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-app-renovate-nrwl-monore
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-app-renovate-nrwl-monore,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-app-renovate-sass-1-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-app-renovate-sass-1-x,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-frontend-psrehp-37425-encrypt
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-psrehp-37425-encrypt,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-frontend-renovate-account-acc
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-renovate-account-acc,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-frontend-renovate-crystal-cor
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-renovate-crystal-cor,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-frontend-renovate-dotenv-16-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-renovate-dotenv-16-x,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-frontend-renovate-firebase-9
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-renovate-firebase-9,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-frontend-renovate-npm-9-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-renovate-npm-9-x,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-frontend-renovate-nrwl-monore
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-renovate-nrwl-monore,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-mf-frontend-renovate-sass-1-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-renovate-sass-1-x,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-adi-chat-adi-chat-adi-chat
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-adi-chat,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-adi-chat-adi-chat-adi-chat,framework=sole
+  tags:
+    - sole
+    - ec-adi-chat
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-dotcom-techradar-dotcom-techradar-core
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-dotcom-techradar,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-dotcom-techradar-dotcom-techradar-core,framework=sole
+  tags:
+    - sole
+    - ec-dotcom-techradar
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-esm-svc-esm-svc
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-esm-svc,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-esm-svc-esm-svc,framework=sole
+  tags:
+    - sole
+    - ec-esm-svc
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-garceger-garceger-garceger
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-garceger,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-garceger-garceger-garceger,framework=sole
+  tags:
+    - sole
+    - ec-garceger
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-glasscore-36921-glasscore-36921-app
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-glasscore-36921,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-glasscore-36921-glasscore-36921-app,framework=sole
+  tags:
+    - sole
+    - ec-glasscore-36921
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-helm-deploy-tests-helm-deploy-tests-helm-deploy-te
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-helm-deploy-tests,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-helm-deploy-tests-helm-deploy-tests-helm-deploy-te,framework=sole
+  tags:
+    - sole
+    - ec-helm-deploy-tests
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-ivan-test-mf-test-1-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-ivan-test,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-ivan-test-mf-test-1-mf,framework=sole
+  tags:
+    - sole
+    - ec-ivan-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-mockserver-mockserver-mockserver
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-mockserver,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-mockserver-mockserver-mockserver,framework=sole
+  tags:
+    - sole
+    - ec-mockserver
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-search-poc-search-poc
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-search-poc,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-search-poc-search-poc,framework=sole
+  tags:
+    - sole
+    - ec-search-poc
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-playground-sole-playground-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-playground,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-playground-sole-playground-api,framework=sole
+  tags:
+    - sole
+    - ec-sole-playground
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-playground-sole-playground-app
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-playground,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-playground-sole-playground-app,framework=sole
+  tags:
+    - sole
+    - ec-sole-playground
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-playground-sole-playground-microfrontend
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-playground,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-playground-sole-playground-microfrontend,framework=sole
+  tags:
+    - sole
+    - ec-sole-playground
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-test-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-api,framework=sole
+  tags:
+    - sole
+    - ec-sole-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-test-at-3-sole-test-at-3-api-1
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test-at-3,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-at-3-sole-test-at-3-api-1,framework=sole
+  tags:
+    - sole
+    - ec-sole-test-at-3
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-test-at-3-sole-test-at-3-api-2
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test-at-3,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-at-3-sole-test-at-3-api-2,framework=sole
+  tags:
+    - sole
+    - ec-sole-test-at-3
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-test-at-3-sole-test-at-3-api-3
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test-at-3,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-at-3-sole-test-at-3-api-3,framework=sole
+  tags:
+    - sole
+    - ec-sole-test-at-3
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-test-at-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test-at,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-at-api,framework=sole
+  tags:
+    - sole
+    - ec-sole-test-at
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-test-landing-service
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-landing-service,framework=sole
+  tags:
+    - sole
+    - ec-sole-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-sole-test-sole-test-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-sole-test-api,framework=sole
+  tags:
+    - sole
+    - ec-sole-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ec-test-am-test-am-test-app
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-test-am,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-test-am-test-am-test-app,framework=sole
+  tags:
+    - sole
+    - ec-test-am
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-adidas-runners-website
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-adidas-runners,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-adidas-runners-website,framework=sole
+  tags:
+    - sole
+    - glass-adidas-runners
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-chat-mf-chat-client
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-chat-mf-chat-client,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-chat-mf-chat-mf-app
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-chat-mf-chat-mf-app,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-chat-mf-chat-mf-frontend
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-chat-mf-chat-mf-frontend,framework=sole
+  tags:
+    - sole
+    - glass-chat-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-cms-components-cms-storybook
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-cms-components,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-cms-components-cms-storybook,framework=sole
+  tags:
+    - sole
+    - glass-cms-components
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-comparison-tool-mf-comparison-tool
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-comparison-tool-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-comparison-tool-mf-comparison-tool,framework=sole
+  tags:
+    - sole
+    - glass-comparison-tool-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-comparison-tool-mf-product-comparison-carousel
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-comparison-tool-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-comparison-tool-mf-product-comparison-carousel,framework=sole
+  tags:
+    - sole
+    - glass-comparison-tool-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-config-ui-config-ui
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-config-ui,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-config-ui-config-ui,framework=sole
+  tags:
+    - sole
+    - glass-config-ui
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-content-proxy-content-proxy
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-content-proxy,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-content-proxy-content-proxy,framework=sole
+  tags:
+    - sole
+    - glass-content-proxy
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-exclusion-list-api-exclusion-list-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-exclusion-list-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-exclusion-list-api-exclusion-list-api,framework=sole
+  tags:
+    - sole
+    - glass-exclusion-list-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-footer-mf-footer-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-footer-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-footer-mf-footer-mf,framework=sole
+  tags:
+    - sole
+    - glass-footer-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-header-mf-header-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-header-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-header-mf-header-mf,framework=sole
+  tags:
+    - sole
+    - glass-header-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-help-pages-adidas-help-pages
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-help-pages-adidas-help-pages,framework=sole
+  tags:
+    - sole
+    - glass-help-pages
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-help-pages-help-pages-help-pages
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-help-pages-help-pages-help-pages,framework=sole
+  tags:
+    - sole
+    - glass-help-pages
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-landing-app-adidas-landing-app
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-landing-app,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-landing-app-adidas-landing-app,framework=sole
+  tags:
+    - sole
+    - glass-landing-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-landing-app-adidas-landing-storybook
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-landing-app,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-landing-app-adidas-landing-storybook,framework=sole
+  tags:
+    - sole
+    - glass-landing-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-latte-landing-page-latte-landing-page-app
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-latte-landing-page,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-latte-landing-page-latte-landing-page-app,framework=sole
+  tags:
+    - sole
+    - glass-latte-landing-page
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-latte-landing-page-latte-landing-page-mfe
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-latte-landing-page,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-latte-landing-page-latte-landing-page-mfe,framework=sole
+  tags:
+    - sole
+    - glass-latte-landing-page
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-latte-loader-latte-loader-latte-loader
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-latte-loader,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-latte-loader-latte-loader-latte-loader,framework=sole
+  tags:
+    - sole
+    - glass-latte-loader
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-mbr-sidepanel-mf-points-history-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-mbr-sidepanel-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-mbr-sidepanel-mf-points-history-mf,framework=sole
+  tags:
+    - sole
+    - glass-mbr-sidepanel-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-mbr-sidepanel-mf-raffles-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-mbr-sidepanel-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-mbr-sidepanel-mf-raffles-mf,framework=sole
+  tags:
+    - sole
+    - glass-mbr-sidepanel-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-mbr-sidepanel-mf-re-purchase-flow-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-mbr-sidepanel-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-mbr-sidepanel-mf-re-purchase-flow-mf,framework=sole
+  tags:
+    - sole
+    - glass-mbr-sidepanel-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-mbr-sidepanel-mf-side-panel-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-mbr-sidepanel-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-mbr-sidepanel-mf-side-panel-mf,framework=sole
+  tags:
+    - sole
+    - glass-mbr-sidepanel-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-mock-server-mock-server-app
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-mock-server,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-mock-server-mock-server-app,framework=sole
+  tags:
+    - sole
+    - glass-mock-server
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-navigation-api-navigation-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-navigation-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-navigation-api-navigation-api,framework=sole
+  tags:
+    - sole
+    - glass-navigation-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-navigation-footer-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-navigation,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-navigation-footer-mf,framework=sole
+  tags:
+    - sole
+    - glass-navigation
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-navigation-header-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-navigation,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-navigation-header-mf,framework=sole
+  tags:
+    - sole
+    - glass-navigation
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-navigation-navigation-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-navigation,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-navigation-navigation-api,framework=sole
+  tags:
+    - sole
+    - glass-navigation
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-order-mf-order-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-order-mf-order-api,framework=sole
+  tags:
+    - sole
+    - glass-order-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-order-mf-order-cancellation
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-order-mf-order-cancellation,framework=sole
+  tags:
+    - sole
+    - glass-order-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-order-mf-order-details
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-order-mf-order-details,framework=sole
+  tags:
+    - sole
+    - glass-order-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-order-mf-order-history
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-order-mf-order-history,framework=sole
+  tags:
+    - sole
+    - glass-order-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-order-mf-order-hub
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-order-mf-order-hub,framework=sole
+  tags:
+    - sole
+    - glass-order-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-order-mf-order-return
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-order-mf-order-return,framework=sole
+  tags:
+    - sole
+    - glass-order-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-order-mf-order-return-details
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-order-mf-order-return-details,framework=sole
+  tags:
+    - sole
+    - glass-order-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-outfit-builder-mf-wardrobe-builder
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-outfit-builder-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-outfit-builder-mf-wardrobe-builder,framework=sole
+  tags:
+    - sole
+    - glass-outfit-builder-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-pdp-mf-pdp-mf-pdp-product-story-mf
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-pdp-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-pdp-mf-pdp-mf-pdp-product-story-mf,framework=sole
+  tags:
+    - sole
+    - glass-pdp-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-plp-plp-app
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-plp,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-plp-plp-app,framework=sole
+  tags:
+    - sole
+    - glass-plp
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-recommendations-mf-adidas-recs-storybook
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-recommendations-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-recommendations-mf-adidas-recs-storybook,framework=sole
+  tags:
+    - sole
+    - glass-recommendations-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-recommendations-mf-lookbook-microfrontend
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-recommendations-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-recommendations-mf-lookbook-microfrontend,framework=sole
+  tags:
+    - sole
+    - glass-recommendations-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-recommendations-service-recommendations-service
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-recommendations-service,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-recommendations-service-recommendations-service,framework=sole
+  tags:
+    - sole
+    - glass-recommendations-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-release-candidate-check-release-candidate-check
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-release-candidate-check,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-release-candidate-check-release-candidate-check,framework=sole
+  tags:
+    - sole
+    - glass-release-candidate-check
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-routes-routes-contentflow-consumer
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-routes,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-routes-routes-contentflow-consumer,framework=sole
+  tags:
+    - sole
+    - glass-routes
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-size-charts-api-size-charts-api
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-size-charts-api-size-charts-api,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-size-charts-mf-size-charts-microfrontend
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-size-charts-mf-size-charts-microfrontend,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-size-charts-mf-size-charts-storybook
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-size-charts-mf-size-charts-storybook,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: glass-translations-docs-translations-docs
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-translations-docs,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-translations-docs-translations-docs,framework=sole
+  tags:
+    - sole
+    - glass-translations-docs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: recommendations-service-bai-11431
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-recommendations-service,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=recommendations-service-bai-11431,framework=sole
+  tags:
+    - sole
+    - glass-recommendations-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-bai-12374-add-garmen
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-bai-12374-add-garmen,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-bai-12832
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-bai-12832,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-fast-xml-pa
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-fast-xml-pa,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-jsdom-24-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-jsdom-24-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-lint-staged
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-lint-staged,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-node-20-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-node-20-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-nodemon-3-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-nodemon-3-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-npm-10-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-npm-10-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-playwright
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-playwright,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-sanitize-ht
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-sanitize-ht,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-uuid-9-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-uuid-9-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-api-renovate-vitest-mono
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-api,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-vitest-mono,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-bai-12830-include-da
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-bai-12830-include-da,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-bai-12833-backport-d
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-bai-12833-backport-d,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-bai-12849-backport-a
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-bai-12849-backport-a,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-renovate-eslint-8-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-eslint-8-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-renovate-eslint-plug
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-eslint-plug,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-renovate-glass-mf-cl
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-glass-mf-cl,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-renovate-isomorphic
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-isomorphic,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-renovate-msw-2-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-msw-2-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-renovate-sass-1-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-sass-1-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-renovate-testing-lib
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-testing-lib,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-microfrontend-renovate-vitest-mono
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-microfrontend-renovate-vitest-mono,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-bai-12830-include-da
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-bai-12830-include-da,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-bai-12833-backport-d
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-bai-12833-backport-d,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-bai-12849-backport-a
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-bai-12849-backport-a,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-renovate-eslint-8-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-renovate-eslint-8-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-renovate-eslint-plug
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-renovate-eslint-plug,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-renovate-glass-mf-cl
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-renovate-glass-mf-cl,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-renovate-isomorphic
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-renovate-isomorphic,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-renovate-msw-2-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-renovate-msw-2-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-renovate-sass-1-x
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-renovate-sass-1-x,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-renovate-testing-lib
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-renovate-testing-lib,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: size-charts-storybook-renovate-vitest-mono
+  namespace: glass
+  annotations:
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-size-charts-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-storybook-renovate-vitest-mono,framework=sole
+  tags:
+    - sole
+    - glass-size-charts-mf
+spec:
+  type: service
+  lifecycle: experimental
+  owner: exp-core
