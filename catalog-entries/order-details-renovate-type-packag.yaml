@@ -6,7 +6,7 @@ metadata:
   description: Sole Application
   namespace: glass
   annotations:
-    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=order-details-renovate-type-packag,framework=sole
   links:
     - url: https://example.com/user

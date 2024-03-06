@@ -2,12 +2,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: size-charts-api-renovate-sanitize-ht
+  name: chat-mf-frontend-psrehp-37166-v3
   description: Sole Application
   namespace: glass
   annotations:
-    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=,framework=sole
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-sanitize-ht,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=chat-mf-frontend-psrehp-37166-v3,framework=sole
   links:
     - url: https://example.com/user
       title: Examples Users

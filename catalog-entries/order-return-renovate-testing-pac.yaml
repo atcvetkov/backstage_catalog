@@ -2,12 +2,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: size-charts-api-renovate-sanitize-ht
+  name: order-return-renovate-testing-pac
   description: Sole Application
   namespace: glass
   annotations:
-    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=,framework=sole
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=size-charts-api-renovate-sanitize-ht,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=order-return-renovate-testing-pac,framework=sole
   links:
     - url: https://example.com/user
       title: Examples Users

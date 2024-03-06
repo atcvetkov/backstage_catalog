@@ -10,6 +10,7 @@ spec:
     - ./catalog-entries/adidas-help-pages-renovate-adidas-comp.yaml
     - ./catalog-entries/adidas-help-pages-renovate-ce-organic.yaml
     - ./catalog-entries/adidas-help-pages-renovate-type-packag.yaml
+    - ./catalog-entries/chat-mf-app-psrehp-37166-v3.yaml
     - ./catalog-entries/chat-mf-app-psrehp-37425-encrypt.yaml
     - ./catalog-entries/chat-mf-app-renovate-account-acc.yaml
     - ./catalog-entries/chat-mf-app-renovate-crystal-cor.yaml
@@ -18,6 +19,7 @@ spec:
     - ./catalog-entries/chat-mf-app-renovate-npm-9-x.yaml
     - ./catalog-entries/chat-mf-app-renovate-nrwl-monore.yaml
     - ./catalog-entries/chat-mf-app-renovate-sass-1-x.yaml
+    - ./catalog-entries/chat-mf-frontend-psrehp-37166-v3.yaml
     - ./catalog-entries/chat-mf-frontend-psrehp-37425-encrypt.yaml
     - ./catalog-entries/chat-mf-frontend-renovate-account-acc.yaml
     - ./catalog-entries/chat-mf-frontend-renovate-crystal-cor.yaml
@@ -93,12 +95,33 @@ spec:
     - ./catalog-entries/glass-size-charts-mf-size-charts-microfrontend.yaml
     - ./catalog-entries/glass-size-charts-mf-size-charts-storybook.yaml
     - ./catalog-entries/glass-translations-docs-translations-docs.yaml
+    - ./catalog-entries/order-api-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-api-renovate-order-api-e.yaml
+    - ./catalog-entries/order-api-renovate-testing-pac.yaml
     - ./catalog-entries/order-api-renovate-type-packag.yaml
+    - ./catalog-entries/order-cancellation-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-cancellation-renovate-order-api-e.yaml
+    - ./catalog-entries/order-cancellation-renovate-testing-pac.yaml
     - ./catalog-entries/order-cancellation-renovate-type-packag.yaml
+    - ./catalog-entries/order-details-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-details-renovate-order-api-e.yaml
+    - ./catalog-entries/order-details-renovate-testing-pac.yaml
     - ./catalog-entries/order-details-renovate-type-packag.yaml
+    - ./catalog-entries/order-history-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-history-renovate-order-api-e.yaml
+    - ./catalog-entries/order-history-renovate-testing-pac.yaml
     - ./catalog-entries/order-history-renovate-type-packag.yaml
+    - ./catalog-entries/order-hub-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-hub-renovate-order-api-e.yaml
+    - ./catalog-entries/order-hub-renovate-testing-pac.yaml
     - ./catalog-entries/order-hub-renovate-type-packag.yaml
+    - ./catalog-entries/order-return-details-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-return-details-renovate-order-api-e.yaml
+    - ./catalog-entries/order-return-details-renovate-testing-pac.yaml
     - ./catalog-entries/order-return-details-renovate-type-packag.yaml
+    - ./catalog-entries/order-return-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-return-renovate-order-api-e.yaml
+    - ./catalog-entries/order-return-renovate-testing-pac.yaml
     - ./catalog-entries/order-return-renovate-type-packag.yaml
     - ./catalog-entries/recommendations-service-bai-11431.yaml
     - ./catalog-entries/size-charts-api-bai-12374-add-garmen.yaml
@@ -113,6 +136,7 @@ spec:
     - ./catalog-entries/size-charts-api-renovate-sanitize-ht.yaml
     - ./catalog-entries/size-charts-api-renovate-uuid-9-x.yaml
     - ./catalog-entries/size-charts-api-renovate-vitest-mono.yaml
+    - ./catalog-entries/size-charts-microfrontend-bai-12713-proxy-data.yaml
     - ./catalog-entries/size-charts-microfrontend-bai-12830-include-da.yaml
     - ./catalog-entries/size-charts-microfrontend-bai-12833-backport-d.yaml
     - ./catalog-entries/size-charts-microfrontend-bai-12849-backport-a.yaml
@@ -124,6 +148,7 @@ spec:
     - ./catalog-entries/size-charts-microfrontend-renovate-sass-1-x.yaml
     - ./catalog-entries/size-charts-microfrontend-renovate-testing-lib.yaml
     - ./catalog-entries/size-charts-microfrontend-renovate-vitest-mono.yaml
+    - ./catalog-entries/size-charts-storybook-bai-12713-proxy-data.yaml
     - ./catalog-entries/size-charts-storybook-bai-12830-include-da.yaml
     - ./catalog-entries/size-charts-storybook-bai-12833-backport-d.yaml
     - ./catalog-entries/size-charts-storybook-bai-12849-backport-a.yaml
