@@ -58,7 +58,6 @@ metadata:
     - sole
     - deu02
     - development
-    - not_in_production
   labels:
     framework: sole
     odp_cluster: deu02
