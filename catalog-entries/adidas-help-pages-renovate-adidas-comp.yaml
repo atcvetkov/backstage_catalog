@@ -2,12 +2,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ec-adi-chat-adi-chat-adi-chat
+  name: adidas-help-pages-renovate-adidas-comp
   description: Sole Application
   namespace: glass
   annotations:
-    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-adi-chat,framework=sole
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-adi-chat-adi-chat-adi-chat,framework=sole
+    # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-help-pages,framework=sole
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=adidas-help-pages-renovate-adidas-comp,framework=sole
   links:
     - url: https://example.com/user
       title: Examples Users

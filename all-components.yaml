@@ -7,6 +7,7 @@ spec:
   targets:
     - ./catalog-entries/adidas-help-pages-psrehp-37423.yaml
     - ./catalog-entries/adidas-help-pages-psrehp-37551.yaml
+    - ./catalog-entries/adidas-help-pages-renovate-adidas-comp.yaml
     - ./catalog-entries/adidas-help-pages-renovate-ce-organic.yaml
     - ./catalog-entries/adidas-help-pages-renovate-type-packag.yaml
     - ./catalog-entries/chat-mf-app-psrehp-37425-encrypt.yaml
@@ -92,6 +93,13 @@ spec:
     - ./catalog-entries/glass-size-charts-mf-size-charts-microfrontend.yaml
     - ./catalog-entries/glass-size-charts-mf-size-charts-storybook.yaml
     - ./catalog-entries/glass-translations-docs-translations-docs.yaml
+    - ./catalog-entries/order-api-renovate-type-packag.yaml
+    - ./catalog-entries/order-cancellation-renovate-type-packag.yaml
+    - ./catalog-entries/order-details-renovate-type-packag.yaml
+    - ./catalog-entries/order-history-renovate-type-packag.yaml
+    - ./catalog-entries/order-hub-renovate-type-packag.yaml
+    - ./catalog-entries/order-return-details-renovate-type-packag.yaml
+    - ./catalog-entries/order-return-renovate-type-packag.yaml
     - ./catalog-entries/recommendations-service-bai-11431.yaml
     - ./catalog-entries/size-charts-api-bai-12374-add-garmen.yaml
     - ./catalog-entries/size-charts-api-bai-12832.yaml
