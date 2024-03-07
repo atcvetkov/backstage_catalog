@@ -5,13 +5,16 @@ metadata:
   description: A collection of all Sole Backstage example components
 spec:
   targets:
-    - ./catalog-entries/adidas-help-pages-psrehp-37423.yaml
-    - ./catalog-entries/adidas-help-pages-psrehp-37551.yaml
+    - ./catalog-entries/adidas-help-pages-psrehp-37247-order-d.yaml
+    - ./catalog-entries/adidas-help-pages-psrehp-37506-use-cat.yaml
     - ./catalog-entries/adidas-help-pages-renovate-adidas-comp.yaml
     - ./catalog-entries/adidas-help-pages-renovate-ce-organic.yaml
+    - ./catalog-entries/adidas-help-pages-renovate-order-event.yaml
+    - ./catalog-entries/adidas-help-pages-renovate-turbo-monor.yaml
     - ./catalog-entries/adidas-help-pages-renovate-type-packag.yaml
+    - ./catalog-entries/adidas-recs-storybook-bai-12880.yaml
+    - ./catalog-entries/chat-mf-app-psrehp-37166-turbo.yaml
     - ./catalog-entries/chat-mf-app-psrehp-37166-v3.yaml
-    - ./catalog-entries/chat-mf-app-psrehp-37425-encrypt.yaml
     - ./catalog-entries/chat-mf-app-renovate-account-acc.yaml
     - ./catalog-entries/chat-mf-app-renovate-crystal-cor.yaml
     - ./catalog-entries/chat-mf-app-renovate-dotenv-16-x.yaml
@@ -19,8 +22,8 @@ spec:
     - ./catalog-entries/chat-mf-app-renovate-npm-9-x.yaml
     - ./catalog-entries/chat-mf-app-renovate-nrwl-monore.yaml
     - ./catalog-entries/chat-mf-app-renovate-sass-1-x.yaml
+    - ./catalog-entries/chat-mf-frontend-psrehp-37166-turbo.yaml
     - ./catalog-entries/chat-mf-frontend-psrehp-37166-v3.yaml
-    - ./catalog-entries/chat-mf-frontend-psrehp-37425-encrypt.yaml
     - ./catalog-entries/chat-mf-frontend-renovate-account-acc.yaml
     - ./catalog-entries/chat-mf-frontend-renovate-crystal-cor.yaml
     - ./catalog-entries/chat-mf-frontend-renovate-dotenv-16-x.yaml
@@ -31,7 +34,6 @@ spec:
     - ./catalog-entries/ec-adi-chat-adi-chat-adi-chat.yaml
     - ./catalog-entries/ec-dotcom-techradar-dotcom-techradar-core.yaml
     - ./catalog-entries/ec-esm-svc-esm-svc.yaml
-    - ./catalog-entries/ec-garceger-garceger-garceger.yaml
     - ./catalog-entries/ec-glasscore-36921-glasscore-36921-app.yaml
     - ./catalog-entries/ec-helm-deploy-tests-helm-deploy-tests-helm-deploy-te.yaml
     - ./catalog-entries/ec-ivan-test-mf-test-1-mf.yaml
@@ -95,37 +97,72 @@ spec:
     - ./catalog-entries/glass-size-charts-mf-size-charts-microfrontend.yaml
     - ./catalog-entries/glass-size-charts-mf-size-charts-storybook.yaml
     - ./catalog-entries/glass-translations-docs-translations-docs.yaml
+    - ./catalog-entries/lookbook-microfrontend-bai-12880.yaml
     - ./catalog-entries/order-api-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-api-psrehp-37247-order-d.yaml
+    - ./catalog-entries/order-api-psrehp-37554-disable.yaml
+    - ./catalog-entries/order-api-psrehp-37568-rework.yaml
+    - ./catalog-entries/order-api-renovate-adidas-comp.yaml
     - ./catalog-entries/order-api-renovate-order-api-e.yaml
+    - ./catalog-entries/order-api-renovate-sole-packag.yaml
     - ./catalog-entries/order-api-renovate-testing-pac.yaml
     - ./catalog-entries/order-api-renovate-type-packag.yaml
     - ./catalog-entries/order-cancellation-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-cancellation-psrehp-37247-order-d.yaml
+    - ./catalog-entries/order-cancellation-psrehp-37554-disable.yaml
+    - ./catalog-entries/order-cancellation-psrehp-37568-rework.yaml
+    - ./catalog-entries/order-cancellation-renovate-adidas-comp.yaml
     - ./catalog-entries/order-cancellation-renovate-order-api-e.yaml
+    - ./catalog-entries/order-cancellation-renovate-sole-packag.yaml
     - ./catalog-entries/order-cancellation-renovate-testing-pac.yaml
     - ./catalog-entries/order-cancellation-renovate-type-packag.yaml
     - ./catalog-entries/order-details-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-details-psrehp-37247-order-d.yaml
+    - ./catalog-entries/order-details-psrehp-37554-disable.yaml
+    - ./catalog-entries/order-details-psrehp-37568-rework.yaml
+    - ./catalog-entries/order-details-renovate-adidas-comp.yaml
     - ./catalog-entries/order-details-renovate-order-api-e.yaml
+    - ./catalog-entries/order-details-renovate-sole-packag.yaml
     - ./catalog-entries/order-details-renovate-testing-pac.yaml
     - ./catalog-entries/order-details-renovate-type-packag.yaml
     - ./catalog-entries/order-history-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-history-psrehp-37247-order-d.yaml
+    - ./catalog-entries/order-history-psrehp-37554-disable.yaml
+    - ./catalog-entries/order-history-psrehp-37568-rework.yaml
+    - ./catalog-entries/order-history-renovate-adidas-comp.yaml
     - ./catalog-entries/order-history-renovate-order-api-e.yaml
+    - ./catalog-entries/order-history-renovate-sole-packag.yaml
     - ./catalog-entries/order-history-renovate-testing-pac.yaml
     - ./catalog-entries/order-history-renovate-type-packag.yaml
     - ./catalog-entries/order-hub-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-hub-psrehp-37247-order-d.yaml
+    - ./catalog-entries/order-hub-psrehp-37554-disable.yaml
+    - ./catalog-entries/order-hub-psrehp-37568-rework.yaml
+    - ./catalog-entries/order-hub-renovate-adidas-comp.yaml
     - ./catalog-entries/order-hub-renovate-order-api-e.yaml
+    - ./catalog-entries/order-hub-renovate-sole-packag.yaml
     - ./catalog-entries/order-hub-renovate-testing-pac.yaml
     - ./catalog-entries/order-hub-renovate-type-packag.yaml
     - ./catalog-entries/order-return-details-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-return-details-psrehp-37247-order-d.yaml
+    - ./catalog-entries/order-return-details-psrehp-37554-disable.yaml
+    - ./catalog-entries/order-return-details-psrehp-37568-rework.yaml
+    - ./catalog-entries/order-return-details-renovate-adidas-comp.yaml
     - ./catalog-entries/order-return-details-renovate-order-api-e.yaml
+    - ./catalog-entries/order-return-details-renovate-sole-packag.yaml
     - ./catalog-entries/order-return-details-renovate-testing-pac.yaml
     - ./catalog-entries/order-return-details-renovate-type-packag.yaml
     - ./catalog-entries/order-return-psrehp-37247-help-ev.yaml
+    - ./catalog-entries/order-return-psrehp-37247-order-d.yaml
+    - ./catalog-entries/order-return-psrehp-37554-disable.yaml
+    - ./catalog-entries/order-return-psrehp-37568-rework.yaml
+    - ./catalog-entries/order-return-renovate-adidas-comp.yaml
     - ./catalog-entries/order-return-renovate-order-api-e.yaml
+    - ./catalog-entries/order-return-renovate-sole-packag.yaml
     - ./catalog-entries/order-return-renovate-testing-pac.yaml
     - ./catalog-entries/order-return-renovate-type-packag.yaml
-    - ./catalog-entries/recommendations-service-bai-11431.yaml
     - ./catalog-entries/size-charts-api-bai-12374-add-garmen.yaml
-    - ./catalog-entries/size-charts-api-bai-12832.yaml
+    - ./catalog-entries/size-charts-api-bai-12850-map-tights.yaml
     - ./catalog-entries/size-charts-api-renovate-fast-xml-pa.yaml
     - ./catalog-entries/size-charts-api-renovate-jsdom-24-x.yaml
     - ./catalog-entries/size-charts-api-renovate-lint-staged.yaml
@@ -137,26 +174,14 @@ spec:
     - ./catalog-entries/size-charts-api-renovate-uuid-9-x.yaml
     - ./catalog-entries/size-charts-api-renovate-vitest-mono.yaml
     - ./catalog-entries/size-charts-microfrontend-bai-12713-proxy-data.yaml
-    - ./catalog-entries/size-charts-microfrontend-bai-12830-include-da.yaml
-    - ./catalog-entries/size-charts-microfrontend-bai-12833-backport-d.yaml
     - ./catalog-entries/size-charts-microfrontend-bai-12849-backport-a.yaml
-    - ./catalog-entries/size-charts-microfrontend-renovate-eslint-8-x.yaml
-    - ./catalog-entries/size-charts-microfrontend-renovate-eslint-plug.yaml
-    - ./catalog-entries/size-charts-microfrontend-renovate-glass-mf-cl.yaml
-    - ./catalog-entries/size-charts-microfrontend-renovate-isomorphic.yaml
-    - ./catalog-entries/size-charts-microfrontend-renovate-msw-2-x.yaml
-    - ./catalog-entries/size-charts-microfrontend-renovate-sass-1-x.yaml
-    - ./catalog-entries/size-charts-microfrontend-renovate-testing-lib.yaml
-    - ./catalog-entries/size-charts-microfrontend-renovate-vitest-mono.yaml
+    - ./catalog-entries/size-charts-microfrontend-renovate-lint-staged.yaml
+    - ./catalog-entries/size-charts-microfrontend-renovate-react-error.yaml
+    - ./catalog-entries/size-charts-microfrontend-renovate-typescript.yaml
+    - ./catalog-entries/size-charts-microfrontend-renovate-vite-plugin.yaml
     - ./catalog-entries/size-charts-storybook-bai-12713-proxy-data.yaml
-    - ./catalog-entries/size-charts-storybook-bai-12830-include-da.yaml
-    - ./catalog-entries/size-charts-storybook-bai-12833-backport-d.yaml
     - ./catalog-entries/size-charts-storybook-bai-12849-backport-a.yaml
-    - ./catalog-entries/size-charts-storybook-renovate-eslint-8-x.yaml
-    - ./catalog-entries/size-charts-storybook-renovate-eslint-plug.yaml
-    - ./catalog-entries/size-charts-storybook-renovate-glass-mf-cl.yaml
-    - ./catalog-entries/size-charts-storybook-renovate-isomorphic.yaml
-    - ./catalog-entries/size-charts-storybook-renovate-msw-2-x.yaml
-    - ./catalog-entries/size-charts-storybook-renovate-sass-1-x.yaml
-    - ./catalog-entries/size-charts-storybook-renovate-testing-lib.yaml
-    - ./catalog-entries/size-charts-storybook-renovate-vitest-mono.yaml
+    - ./catalog-entries/size-charts-storybook-renovate-lint-staged.yaml
+    - ./catalog-entries/size-charts-storybook-renovate-react-error.yaml
+    - ./catalog-entries/size-charts-storybook-renovate-typescript.yaml
+    - ./catalog-entries/size-charts-storybook-renovate-vite-plugin.yaml

@@ -66,7 +66,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: exp-core
-  system: Sole MF
+  system: sole-mf
 EOF
 
     # Add the deployment.yaml file to the list of targets

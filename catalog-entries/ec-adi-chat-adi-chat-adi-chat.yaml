@@ -42,4 +42,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: exp-core
-  system: Sole MF
+  system: sole-mf
