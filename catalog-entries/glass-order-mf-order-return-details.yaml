@@ -8,6 +8,7 @@ metadata:
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-order-mf-order-return-details,framework=sole
+    jenkins.io/job-full-name: https://glass.jenkins.tools.3stripes.net/job/WEB-RUNTIME/job/EC/job/sole-test-at-3/job/CI/
   links:
     - url: https://example.com/user
       title: Examples Users
