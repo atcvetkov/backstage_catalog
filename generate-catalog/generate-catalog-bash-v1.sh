@@ -19,6 +19,7 @@ targets=()
 # for deployment in $(kubectl get deployments -n $NAMESPACE -o=jsonpath='{.items[*].metadata.name}'); do
 for deployment in $(kubectl get deployments -n $NAMESPACE -o=jsonpath='{range .items[?(@.metadata.labels.framework=="sole")]}{.metadata.name}{"\n"}{end}'); do
     label_app_kubernetes=$(kubectl get deployment $deployment -n $NAMESPACE -o=jsonpath='{.metadata.labels.app\.kubernetes\.io\/name}')
+    jenkins_folder_name=$(echo "$label_app_kubernetes" | sed 's/^[a-z]*-//')
 
     # Create YAML content
     cat > "../catalog-entries/$deployment.yaml" <<EOF
@@ -32,7 +33,7 @@ metadata:
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=$label_app_kubernetes,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=$deployment,framework=sole
-    jenkins.io/job-full-name: WEB-RUNTIME/EC/$label_app_kubernetes/CI
+    jenkins.io/job-full-name: WEB-RUNTIME/EC/$jenkins_folder_name/CI
   links:
     - url: https://example.com/user
       title: Examples Users

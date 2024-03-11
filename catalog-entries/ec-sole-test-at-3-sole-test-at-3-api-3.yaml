@@ -8,7 +8,7 @@ metadata:
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test-at-3,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-sole-test-at-3-sole-test-at-3-api-3,framework=sole
-    jenkins.io/job-full-name: WEB-RUNTIME/EC/ec-sole-test-at-3/CI
+    jenkins.io/job-full-name: WEB-RUNTIME/EC/sole-test-at-3/CI
   links:
     - url: https://example.com/user
       title: Examples Users

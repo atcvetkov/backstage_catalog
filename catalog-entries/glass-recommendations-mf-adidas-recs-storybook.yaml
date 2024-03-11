@@ -8,7 +8,7 @@ metadata:
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-recommendations-mf,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=glass-recommendations-mf-adidas-recs-storybook,framework=sole
-    jenkins.io/job-full-name: WEB-RUNTIME/EC/glass-recommendations-mf/CI
+    jenkins.io/job-full-name: WEB-RUNTIME/EC/recommendations-mf/CI
   links:
     - url: https://example.com/user
       title: Examples Users

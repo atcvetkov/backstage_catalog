@@ -8,7 +8,7 @@ metadata:
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-adi-chat,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=ec-adi-chat-adi-chat-adi-chat,framework=sole
-    jenkins.io/job-full-name: WEB-RUNTIME/EC/ec-adi-chat/CI
+    jenkins.io/job-full-name: WEB-RUNTIME/EC/adi-chat/CI
   links:
     - url: https://example.com/user
       title: Examples Users
