@@ -5,9 +5,22 @@ metadata:
   description: A collection of all Sole Backstage example components
 spec:
   targets:
-    - ./catalog-entries/chat-mf-app-psrehp-37166-turbo.yaml
-    - ./catalog-entries/chat-mf-frontend-psrehp-37166-turbo.yaml
+    - ./catalog-entries/adidas-help-pages-psrehp-37506-use-cat.yaml
+    - ./catalog-entries/adidas-help-pages-renovate-adidas-comp.yaml
+    - ./catalog-entries/adidas-help-pages-renovate-happy-dom-1.yaml
+    - ./catalog-entries/chat-mf-app-psrehp-37166-v3.yaml
+    - ./catalog-entries/chat-mf-frontend-psrehp-37166-v3.yaml
+    - ./catalog-entries/ec-adi-chat-adi-chat-adi-chat.yaml
+    - ./catalog-entries/ec-dotcom-techradar-dotcom-techradar-core.yaml
     - ./catalog-entries/ec-esm-svc-esm-svc.yaml
+    - ./catalog-entries/ec-glasscore-36921-glasscore-36921-app.yaml
+    - ./catalog-entries/ec-helm-deploy-tests-helm-deploy-tests-helm-deploy-te.yaml
+    - ./catalog-entries/ec-ivan-test-mf-test-1-mf.yaml
+    - ./catalog-entries/ec-mockserver-mockserver-mockserver.yaml
+    - ./catalog-entries/ec-search-poc-search-poc.yaml
+    - ./catalog-entries/ec-sole-playground-sole-playground-api.yaml
+    - ./catalog-entries/ec-sole-playground-sole-playground-app.yaml
+    - ./catalog-entries/ec-sole-playground-sole-playground-microfrontend.yaml
     - ./catalog-entries/ec-sole-test-api.yaml
     - ./catalog-entries/ec-sole-test-at-3-sole-test-at-3-api-1.yaml
     - ./catalog-entries/ec-sole-test-at-3-sole-test-at-3-api-2.yaml
@@ -16,8 +29,12 @@ spec:
     - ./catalog-entries/ec-sole-test-landing-service.yaml
     - ./catalog-entries/ec-sole-test-sole-test-api.yaml
     - ./catalog-entries/ec-test-am-test-am-test-app.yaml
+    - ./catalog-entries/glass-adidas-runners-website.yaml
+    - ./catalog-entries/glass-chat-mf-chat-client.yaml
     - ./catalog-entries/glass-chat-mf-chat-mf-app.yaml
     - ./catalog-entries/glass-chat-mf-chat-mf-frontend.yaml
+    - ./catalog-entries/glass-cms-components-cms-storybook.yaml
+    - ./catalog-entries/glass-comparison-tool-mf-comparison-tool.yaml
     - ./catalog-entries/glass-comparison-tool-mf-product-comparison-carousel.yaml
     - ./catalog-entries/glass-config-ui-config-ui.yaml
     - ./catalog-entries/glass-content-proxy-content-proxy.yaml
@@ -25,14 +42,17 @@ spec:
     - ./catalog-entries/glass-footer-mf-footer-mf.yaml
     - ./catalog-entries/glass-header-mf-header-mf.yaml
     - ./catalog-entries/glass-help-pages-adidas-help-pages.yaml
+    - ./catalog-entries/glass-help-pages-help-pages-help-pages.yaml
     - ./catalog-entries/glass-landing-app-adidas-landing-app.yaml
     - ./catalog-entries/glass-landing-app-adidas-landing-storybook.yaml
     - ./catalog-entries/glass-latte-landing-page-latte-landing-page-app.yaml
     - ./catalog-entries/glass-latte-landing-page-latte-landing-page-mfe.yaml
+    - ./catalog-entries/glass-latte-loader-latte-loader-latte-loader.yaml
     - ./catalog-entries/glass-mbr-sidepanel-mf-points-history-mf.yaml
     - ./catalog-entries/glass-mbr-sidepanel-mf-raffles-mf.yaml
     - ./catalog-entries/glass-mbr-sidepanel-mf-re-purchase-flow-mf.yaml
     - ./catalog-entries/glass-mbr-sidepanel-mf-side-panel-mf.yaml
+    - ./catalog-entries/glass-mock-server-mock-server-app.yaml
     - ./catalog-entries/glass-navigation-api-navigation-api.yaml
     - ./catalog-entries/glass-navigation-footer-mf.yaml
     - ./catalog-entries/glass-navigation-header-mf.yaml
@@ -42,17 +62,48 @@ spec:
     - ./catalog-entries/glass-order-mf-order-details.yaml
     - ./catalog-entries/glass-order-mf-order-history.yaml
     - ./catalog-entries/glass-order-mf-order-hub.yaml
-    - ./catalog-entries/glass-order-mf-order-latest.yaml
     - ./catalog-entries/glass-order-mf-order-return.yaml
     - ./catalog-entries/glass-order-mf-order-return-details.yaml
-    - ./catalog-entries/glass-order-mf-order-storybook.yaml
     - ./catalog-entries/glass-outfit-builder-mf-wardrobe-builder.yaml
     - ./catalog-entries/glass-pdp-mf-pdp-mf-pdp-product-story-mf.yaml
     - ./catalog-entries/glass-plp-plp-app.yaml
     - ./catalog-entries/glass-recommendations-mf-adidas-recs-storybook.yaml
     - ./catalog-entries/glass-recommendations-mf-lookbook-microfrontend.yaml
     - ./catalog-entries/glass-recommendations-service-recommendations-service.yaml
+    - ./catalog-entries/glass-release-candidate-check-release-candidate-check.yaml
+    - ./catalog-entries/glass-routes-routes-api.yaml
+    - ./catalog-entries/glass-routes-routes-contentflow-consumer.yaml
     - ./catalog-entries/glass-size-charts-api-size-charts-api.yaml
     - ./catalog-entries/glass-size-charts-mf-size-charts-microfrontend.yaml
     - ./catalog-entries/glass-size-charts-mf-size-charts-storybook.yaml
-    - ./catalog-entries/recommendations-service-bai-11431.yaml
+    - ./catalog-entries/glass-translations-docs-translations-docs.yaml
+    - ./catalog-entries/order-api-psrehp-37247-od-scro.yaml
+    - ./catalog-entries/order-api-psrehp-37552-refund.yaml
+    - ./catalog-entries/order-api-renovate-happy-dom-1.yaml
+    - ./catalog-entries/order-api-renovate-node-20.yaml
+    - ./catalog-entries/order-cancellation-psrehp-37247-od-scro.yaml
+    - ./catalog-entries/order-cancellation-psrehp-37552-refund.yaml
+    - ./catalog-entries/order-cancellation-renovate-happy-dom-1.yaml
+    - ./catalog-entries/order-cancellation-renovate-node-20.yaml
+    - ./catalog-entries/order-details-psrehp-37247-od-scro.yaml
+    - ./catalog-entries/order-details-psrehp-37552-refund.yaml
+    - ./catalog-entries/order-details-renovate-happy-dom-1.yaml
+    - ./catalog-entries/order-details-renovate-node-20.yaml
+    - ./catalog-entries/order-history-psrehp-37247-od-scro.yaml
+    - ./catalog-entries/order-history-psrehp-37552-refund.yaml
+    - ./catalog-entries/order-history-renovate-happy-dom-1.yaml
+    - ./catalog-entries/order-history-renovate-node-20.yaml
+    - ./catalog-entries/order-hub-psrehp-37247-od-scro.yaml
+    - ./catalog-entries/order-hub-psrehp-37552-refund.yaml
+    - ./catalog-entries/order-hub-renovate-happy-dom-1.yaml
+    - ./catalog-entries/order-hub-renovate-node-20.yaml
+    - ./catalog-entries/order-return-details-psrehp-37247-od-scro.yaml
+    - ./catalog-entries/order-return-details-psrehp-37552-refund.yaml
+    - ./catalog-entries/order-return-details-renovate-happy-dom-1.yaml
+    - ./catalog-entries/order-return-details-renovate-node-20.yaml
+    - ./catalog-entries/order-return-psrehp-37247-od-scro.yaml
+    - ./catalog-entries/order-return-psrehp-37552-refund.yaml
+    - ./catalog-entries/order-return-renovate-happy-dom-1.yaml
+    - ./catalog-entries/order-return-renovate-node-20.yaml
+    - ./catalog-entries/size-charts-microfrontend-size-chart-mf-ui-tes.yaml
+    - ./catalog-entries/size-charts-storybook-size-chart-mf-ui-tes.yaml

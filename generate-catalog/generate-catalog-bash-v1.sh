@@ -32,7 +32,7 @@ metadata:
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=$label_app_kubernetes,framework=sole
     backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=$deployment,framework=sole
-    jenkins.io/job-full-name: https://glass.jenkins.tools.3stripes.net/job/WEB-RUNTIME/job/EC/job/sole-test-at-3/job/CI/
+    jenkins.io/job-full-name: WEB-RUNTIME/EC/$label_app_kubernetes/CI
   links:
     - url: https://example.com/user
       title: Examples Users
