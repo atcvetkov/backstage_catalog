@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: order-return-details-psrehp-37552-refund
-  description: Sole Application
+  description: glass-order-mf
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-order-mf,framework=sole

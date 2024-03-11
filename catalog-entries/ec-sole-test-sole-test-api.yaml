@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-sole-test-sole-test-api
-  description: Sole Application
+  description: ec-sole-test
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-sole-test,framework=sole

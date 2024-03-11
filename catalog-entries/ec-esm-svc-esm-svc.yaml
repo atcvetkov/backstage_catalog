@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-esm-svc-esm-svc
-  description: Sole Application
+  description: ec-esm-svc
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-esm-svc,framework=sole

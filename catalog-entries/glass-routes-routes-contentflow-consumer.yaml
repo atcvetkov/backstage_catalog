@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: glass-routes-routes-contentflow-consumer
-  description: Sole Application
+  description: glass-routes
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-routes,framework=sole

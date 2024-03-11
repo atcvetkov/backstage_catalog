@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: glass-chat-mf-chat-mf-frontend
-  description: Sole Application
+  description: glass-chat-mf
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-chat-mf,framework=sole

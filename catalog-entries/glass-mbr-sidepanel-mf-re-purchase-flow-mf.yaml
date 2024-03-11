@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: glass-mbr-sidepanel-mf-re-purchase-flow-mf
-  description: Sole Application
+  description: glass-mbr-sidepanel-mf
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-mbr-sidepanel-mf,framework=sole

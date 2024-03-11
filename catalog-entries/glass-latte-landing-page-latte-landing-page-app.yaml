@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: glass-latte-landing-page-latte-landing-page-app
-  description: Sole Application
+  description: glass-latte-landing-page
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-latte-landing-page,framework=sole

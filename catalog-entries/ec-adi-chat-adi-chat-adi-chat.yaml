@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-adi-chat-adi-chat-adi-chat
-  description: Sole Application
+  description: ec-adi-chat
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-adi-chat,framework=sole

@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: glass-content-proxy-content-proxy
-  description: Sole Application
+  description: glass-content-proxy
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-content-proxy,framework=sole

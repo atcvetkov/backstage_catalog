@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-search-poc-search-poc
-  description: Sole Application
+  description: ec-search-poc
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-search-poc,framework=sole

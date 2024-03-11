@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: glass-release-candidate-check-release-candidate-check
-  description: Sole Application
+  description: glass-release-candidate-check
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-release-candidate-check,framework=sole

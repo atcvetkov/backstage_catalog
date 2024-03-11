@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-ivan-test-mf-test-1-mf
-  description: Sole Application
+  description: ec-ivan-test
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-ivan-test,framework=sole

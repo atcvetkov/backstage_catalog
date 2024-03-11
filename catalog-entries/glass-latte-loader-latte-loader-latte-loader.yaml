@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: glass-latte-loader-latte-loader-latte-loader
-  description: Sole Application
+  description: glass-latte-loader
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=glass-latte-loader,framework=sole

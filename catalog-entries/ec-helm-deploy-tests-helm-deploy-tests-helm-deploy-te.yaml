@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ec-helm-deploy-tests-helm-deploy-tests-helm-deploy-te
-  description: Sole Application
+  description: ec-helm-deploy-tests
   namespace: glass
   annotations:
     # backstage.io/kubernetes-label-selector: app.kubernetes.io/name=ec-helm-deploy-tests,framework=sole
